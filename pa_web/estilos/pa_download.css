@@ -1,0 +1,15 @@
+body {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d6d6d6;
+    height: 260vh;
+}
+
+header {
+    background-color: #c280ff;
+    padding: 30px;
+    color: black;
+    font-size: 200%;
+}
