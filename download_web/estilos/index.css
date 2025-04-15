@@ -59,3 +59,17 @@ img {
 li {
     text-align: left;
 }
+
+@media (max-width: 800px) {
+    #welcome-content {
+        width: 350px;
+    }
+
+    #attention-content {
+        width: 350px;
+    }
+
+    #download-content {
+        width: 350px;
+    }
+}
