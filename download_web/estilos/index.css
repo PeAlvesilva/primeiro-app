@@ -1,0 +1,75 @@
+body {
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #d6d6d6;
+    height: 260vh;
+}
+
+header {
+    background-color: #c280ff;
+    padding: 30px;
+    color: black;
+    font-size: 200%;
+}
+
+#welcome-content {
+    background-color: #ffffff;
+    margin: 25px auto;
+    width: 700px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#attention-content {
+    background-color: #ff7878;
+    margin: 25px auto;
+    width: 700px;
+    border-radius: 15px;
+    padding: 40px;
+}
+
+#download-content {
+    background-color: #ffffff;
+    margin: 25px auto;
+    width: 700px;
+    padding: 40px;
+    border-radius: 15px;
+    height: 220px;
+}
+
+.download-page-btn {
+    padding: 30px 60px;
+    background-color: #9a2eff;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+
+.download-page-btn:hover {
+    background-color: #4b068b;
+}
+
+img {
+    border: 2px solid black;
+}
+
+li {
+    text-align: left;
+}
+
+@media (max-width: 800px) {
+    #welcome-content {
+        width: 350px;
+    }
+
+    #attention-content {
+        width: 350px;
+    }
+
+    #download-content {
+        width: 350px;
+    }
+}
